@@ -1,21 +1,39 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  margin-top: 12em;
+  margin-bottom: 2em;
+  font-size: medium;
+}
+
+.inputfield {
+  display: flex;
+  font-family: var(--font-mono);
+  justify-content: center;
+  width: 300px;
+  font-size: medium;
+  margin-bottom: 2em;
+}
+
+.button {
+  display: flex;
+  font-family: var(--font-mono);
+  justify-content: center;
+  width: 200px;
+  font-size: medium;
+  margin-bottom: 2em;
 }
 
 .description a {
@@ -24,6 +42,8 @@
   align-items: center;
   gap: 0.5rem;
 }
+
+
 
 .description p {
   position: relative;
@@ -76,7 +96,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   padding: 4rem 0;
 }
 
